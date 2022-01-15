@@ -53,4 +53,4 @@ function draw(size) {
   }
 }
 
-draw(20);
+draw(20); //digite o tamanho da ampulheta aqui
