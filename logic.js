@@ -37,10 +37,7 @@ function draw(size) {
       if (size % 2 == 0 ? i >= mid : i > mid) {
         let spacesF = size % 2 == 0 ? size - i - 2 : size - i - 2;
 
-        let insideF =
-          size % 2 == 0
-            ? size - 4 - (size - i - 2) * 2
-            : size - 4 - (size - i - 2) * 2;
+        let insideF = size - 4 - (size - i - 2) * 2;
 
         spaces = " ".repeat(spacesF);
         inside = " ".repeat(insideF);
