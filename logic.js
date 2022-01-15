@@ -35,7 +35,7 @@ function draw(size) {
 
       //baixo
       if (size % 2 == 0 ? i >= mid : i > mid) {
-        let spacesF = size % 2 == 0 ? size - i - 2 : size - i - 2;
+        let spacesF = size - i - 2;
 
         let insideF = size - 4 - (size - i - 2) * 2;
 
@@ -50,4 +50,4 @@ function draw(size) {
   }
 }
 
-draw(20); //digite o tamanho da ampulheta aqui
+draw(10); //digite o tamanho da ampulheta aqui
